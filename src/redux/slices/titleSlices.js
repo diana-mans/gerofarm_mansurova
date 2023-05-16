@@ -23,12 +23,6 @@ export const titleSlice = createSlice({
     setWidth(state, action) {
       state.screenWidth = action.payload;
     },
-    redWidth(state, action) {
-      //
-    },
-    incWidth(state, action) {
-      //
-    },
   },
 });
 
